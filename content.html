@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Endangered Animals Hub</title>
+    <link rel="stylesheet" href="content.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <!-- Hamburger Icon -->
+      <div class="hamburger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <h1>🆘 Endangered Species Hub</h1>
+      <p>Explore 30+ animals at risk of extinction</p>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+      <a href="index.html">Home</a>
+      <a href="content.html">Content</a>
+      <a href="about.html">About</a>
+    </nav>
+
+    <!-- Population Legend -->
+    <section class="population-legend">
+      <h2>Population Status Indicator</h2>
+      <div class="legend-item">
+        <div class="legend-color critical"></div>
+        <p>
+          <strong>Critically Endangered:</strong> Extremely high risk of
+          extinction (Population: Less than 250)
+        </p>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color endangered"></div>
+        <p>
+          <strong>Endangered:</strong> Very high risk of extinction (Population:
+          250 - 2,500)
+        </p>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color vulnerable"></div>
+        <p>
+          <strong>Vulnerable:</strong> High risk of extinction (Population:
+          2,500 - 10,000)
+        </p>
+      </div>
+    </section>
+
+    <div class="animals-grid">
+      <a href="tiger.html" class="animal-card">
+        <img src="img/tiger.jpg" alt="Siberian Tiger" loading="lazy" />
+        <div class="card-content">
+          <h2>Siberian Tiger</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>Habitat: Forests of Russia</p>
+        </div>
+      </a>
+
+      <a href="vaquita.html" class="animal-card">
+        <img src="img/vaquita.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Vaquita</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>Habitat: Gulf of California, Mexico</p>
+        </div>
+      </a>
+
+      <a href="leopard.html" class="animal-card">
+        <img src="img/Amur Leopard.jpg" alt="Siberian Tiger" loading="lazy" />
+        <div class="card-content">
+          <h2>Amur Leopard</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>Habitat: Russian Far East and Northeast China</p>
+        </div>
+      </a>
+
+      <a href="orangutan.html" class="animal-card">
+        <img
+          src="img/Sumatran Orangutan.jpg"
+          alt="Vaquita Porpoise"
+          loading="lazy"
+        />
+        <div class="card-content">
+          <h2>Sumatran Orangutan</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>Habitat: Sumatra, Indonesia</p>
+        </div>
+      </a>
+
+      <a href="plant.html" class="animal-card">
+        <img src="img/plant'.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Rafflesia Arnoldii</h2>
+          <span class="status endangered">Endangered</span>
+          <p>
+            Habitat: Tropical rainforests of Sumatra and Borneo in Indonesia
+          </p>
+        </div>
+      </a>
+
+      <a href="rhino.html" class="animal-card">
+        <img src="img/Rhino.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Black Rhino</h2>
+          <span class="status critical vulnerable">Vulnerable</span>
+          <p>Habitat: Eastern and Southern Africa</p>
+        </div>
+      </a>
+
+      <a href="gorilla.html" class="animal-card">
+        <img src="img/Gorilla.jpg" alt="Siberian Tiger" loading="lazy" />
+        <div class="card-content">
+          <h2>Mountain Gorilla</h2>
+          <span class="status critical endangered">Endangered</span>
+          <p>Habitat: Volcanic mountains of Central Africa</p>
+        </div>
+      </a>
+      <a href="franklin.html" class="animal-card">
+        <img src="img/franklin.jpeg" alt="Siberian Tiger" loading="lazy" />
+        <div class="card-content">
+          <h2>Franklin Tree</h2>
+          <span class="status critical">Extinct in the Wild</span>
+          <p>Altamaha River in Georgia</p>
+        </div>
+      </a>
+
+      <a href="s-tiger.html" class="animal-card">
+        <img src="img/s-tiger.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Sumatran Tiger</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>Habitat: Sumatra, Indonesia</p>
+        </div>
+      </a>
+
+      <a href="dog.html" class="animal-card">
+        <img src="img/dog.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>African Wild Dog</h2>
+          <span class="status critical endangered">Endangered</span>
+          <p>Habitat: Botswana, Zimbabwe, South Africa, and Tanzania</p>
+        </div>
+      </a>
+
+      <a href="s-leopard.html" class="animal-card">
+        <img src="img/s-leopard.jpg" alt="Siberian Tiger" loading="lazy" />
+        <div class="card-content">
+          <h2>Snow Leopard</h2>
+          <span class="status critical endangered">Endangered</span>
+          <p>Habitat: China, India, Nepal, Pakistan, and Mongolia</p>
+        </div>
+      </a>
+
+      <a href="baobab.html" class="animal-card">
+        <img src="img/Baobab.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Baobab</h2>
+          <span class="status vulnerable">Vulnerable</span>
+          <p>Habitat: ub-Saharan Africa, Madagascar, and parts of Australiaa</p>
+        </div>
+      </a>
+
+      <a href="marhkor.html" class="animal-card">
+        <img src="img/markhor.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Markhor</h2>
+          <span class="status endangered">Endangered</span>
+          <p>Habitat: Central Asia, Pakistan, and Afghanistan</p>
+        </div>
+      </a>
+
+      <a href="eagle.html" class="animal-card">
+        <img src="img/eagle.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Philippine Eagle</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>Habitat: Forests of Luzon, Leyte, Samar, and Mindanao</p>
+        </div>
+      </a>
+
+      <a href="sandpiper.html" class="animal-card">
+        <img src="img/sandpiper.jpg" alt="Siberian Tiger" loading="lazy" />
+        <div class="card-content">
+          <h2>Spoon-Billed Sandpiper</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>Habitat: Russia, Southeast Asia</p>
+        </div>
+      </a>
+
+      <a href="bald.html" class="animal-card">
+        <img src="img/Bald.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Northern Bald Ibis</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>Habitat: Morocco and Syria</p>
+        </div>
+      </a>
+
+      <a href="turtle.html" class="animal-card">
+        <img src="img/turtle.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Hawksbill Sea Turtle</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>Habitat: Atlantic, Pacific, and Indian Oceans</p>
+        </div>
+      </a>
+
+      <a href="titan.html" class="animal-card">
+        <img src="img/titan.jpg" alt="Siberian Tiger" loading="lazy" />
+        <div class="card-content">
+          <h2>Titan Arum</h2>
+          <span class="status vulnerable">Vulnerable</span>
+          <p>Habitat: Rainforests of Sumatra, Indonesia</p>
+        </div>
+      </a>
+
+      <a href="gharial.html" class="animal-card">
+        <img src="img/Gharialjpg.jpg" alt="Siberian Tiger" loading="lazy" />
+        <div class="card-content">
+          <h2>Gharial</h2>
+          <span class="status endangered">Endangered</span>
+          <p>Habitat: India, Nepal, and Bhutan</p>
+        </div>
+      </a>
+
+      <a href="tortoise.html" class="animal-card">
+        <img src="img/tortoise.jpg" alt="Siberian Tiger" loading="lazy" />
+        <div class="card-content">
+          <h2>Madagascar Spider Tortoise</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>
+            Habitat: Dry forests and spiny deserts of southern and southwestern
+            Madagascar
+          </p>
+        </div>
+      </a>
+
+      <a href="dragon.html" class="animal-card">
+        <img src="img/dragon.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Komodo Dragon</h2>
+          <span class="status critical vulnerable">Vulnerable</span>
+          <p>Habitat: Komodo, Rinca, Flores, and Gili Motang in Indonesia</p>
+        </div>
+      </a>
+
+      <a href="axolotl.html" class="animal-card">
+        <img src="img/Axolotl.jpg" alt="Siberian Tiger" loading="lazy" />
+        <div class="card-content">
+          <h2>Axolotl</h2>
+          <span class="status endangered">Endangered</span>
+          <p>Habitat: Lakes of Xochimilco, near Mexico City</p>
+        </div>
+      </a>
+
+      <a href="frog.html" class="animal-card">
+        <img src="img/frog.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Golden Poison Frog</h2>
+          <span class="status endangered">Endangered</span>
+          <p>Habitat: Rainforests of western Colombia</p>
+        </div>
+      </a>
+
+      <a href="el.html" class="animal-card">
+        <img src="img/el.jpeg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>European Eel</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>
+            Habitat: Freshwater rivers and lakes throughout Europe, Iberian
+            Peninsula to the British Isles
+          </p>
+        </div>
+      </a>
+
+      <a href="tuna.html" class="animal-card">
+        <img src="img/tuna.jpeg" alt="Siberian Tiger" loading="lazy" />
+        <div class="card-content">
+          <h2>Bluefin Tuna</h2>
+          <span class="status critical vulnerable">Vulnerable</span>
+          <p>Habitat: North Atlantic Ocean and the Mediterranean Sea</p>
+        </div>
+      </a>
+
+      <a href="pupfish.html" class="animal-card">
+        <img src="img/pupfish.jpeg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Devil’s Hole Pupfish</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>
+            Habitat: Devil’s Hole in Nevada’s Ash Meadows, part of the Mojave
+            Desert.
+          </p>
+        </div>
+      </a>
+
+      <a href="butterfly.html" class="animal-card">
+        <img src="img/butterfly.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Monarch Butterfly</h2>
+          <span class="status critical endangered">Endangered</span>
+          <p>Habitat: North and South America</p>
+        </div>
+      </a>
+
+      <a href="dragonfly.html" class="animal-card">
+        <img src="img/dragonfly.jpg" alt="Siberian Tiger" loading="lazy" />
+        <div class="card-content">
+          <h2>Hine’s Emerald Dragonfly</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>Habitat: Wetlands of Wisconsin, Michigan, and Illinois</p>
+        </div>
+      </a>
+
+      <a href="j-rhino.html" class="animal-card">
+        <img src="img/j-rhino.jpg" alt="Vaquita Porpoise" loading="lazy" />
+        <div class="card-content">
+          <h2>Javan Rhino</h2>
+          <span class="status critical">Critically Endangered</span>
+          <p>Habitat: Ujung Kulon National Park in Java, Indonesia.</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <p>&copy; 2025 Endangered Species Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
