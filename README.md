@@ -52,6 +52,6 @@ This project helped me:
 ## 🙌 Credits
 
 - Animal facts from [WWF](https://www.worldwildlife.org/), [IUCN Red List](https://www.iucnredlist.org/)  
-- Free-to-use images from Unsplash and wildlife databases
+- Images from [Unsplash](https://unsplash.com/) and free public wildlife image libraries 
 
 ## ✨ Made for practice and learning Frontend.
