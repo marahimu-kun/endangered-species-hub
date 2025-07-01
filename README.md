@@ -55,3 +55,16 @@ This project helped me:
 - Images from [Unsplash](https://unsplash.com/) and free public wildlife image libraries 
 
 ## ✨ Made for practice and learning Frontend.
+
+---
+
+## 👤 Author
+
+Made by Your Name
+Built with ❤️ for learning and fun!
+
+---
+
+## 📜 License
+
+MIT License
