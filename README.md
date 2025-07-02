@@ -60,7 +60,7 @@ This project helped me:
 
 ## 👤 Author
 
-Made by Your Name
+Made by marahimu_kun
 Built with ❤️ for learning and fun!
 
 ---
